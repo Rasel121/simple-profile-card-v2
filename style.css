@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #26235C;
+}
+
+.container{
+    width: 1080px;
+    height: 1080px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: linear-gradient(90deg, rgba(80,71,134,1) 33%, rgba(213,198,255,1) 44%, rgba(144,130,236,1) 46%);
+}
+
+.card{
+    width: 541px;
+    height: 717px;
+    background-color: #26235C;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.small-logo{
+    margin: 15px 0px 0px 15px;
+}
+
+
+.card .img{
+    margin: -10px 0px 0px 160px;
+}
+
+.card .img img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F7DF1E;
+    border-radius: 50%;
+}
+
+.card .tittle{
+    width: 430px;
+    height: 187px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.card .tittle h6 {
+    font-weight: normal;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.card .tittle .web-developer{
+    color: #A79AE0;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.card .tittle .dec{
+    margin-top: 30px;
+    width: 430px;
+    height: 88px;
+}
+.card .tittle .dec .dtext{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.dec span{
+    color: #F9F871;
+}
+
+.card .email{
+    background-color: #9082EC;
+    width: 275px;
+    height:44px;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.email a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+    color: #FFFFFF;
+}
+
+.card .social{
+    width: 408px;
+    height: 39px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.social i{
+    color: #9082EC;
+    font-size: 30px;
+}
+
+.bottom-border{
+    margin: 0 auto;
+    margin-top: 12px;
+}
